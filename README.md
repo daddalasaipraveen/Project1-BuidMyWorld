@@ -10,7 +10,7 @@ This project to design a Robot and simulation world for all your projects in thi
 5. Write a C++ World Plugin to interact with your world. Your code should display “Welcome to ’s World!” message as soon as you launch the Gazebo world file.
 
 Directory Structure:
-The sample simulation world folder has the following directory structure:
+The sample simulation world folder has the following directory structure.
 Here are the files that are available in project folder:
 1. model Folder: Contains a folder for robot model designed in the Model Editor tool of Gazebo,
 and Environment designed in the Building Editor tool of Gazebo
