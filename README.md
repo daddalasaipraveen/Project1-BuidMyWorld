@@ -11,7 +11,7 @@ This project to design a Robot and simulation world for all your projects in thi
 
 Directory Structure:
 The sample simulation world folder has the following directory structure:
-.Project1                          # Build My World Project 
+    .Project1                          # Build My World Project 
     ├── model                          # Model files 
     │   ├── Building
     │   │   ├── model.config
@@ -24,4 +24,4 @@ The sample simulation world folder has the following directory structure:
     ├── world                          # Gazebo main World containing models 
     │   ├── UdacityOffice.world
     ├── CMakeLists.txt                 # Link libraries 
-    └──                              
+    └──   
