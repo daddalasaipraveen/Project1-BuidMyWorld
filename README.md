@@ -11,17 +11,9 @@ This project to design a Robot and simulation world for all your projects in thi
 
 Directory Structure:
 The sample simulation world folder has the following directory structure:
-    .Project1                          # Build My World Project 
-    ├── model                          # Model files 
-    │   ├── Building
-    │   │   ├── model.config
-    │   │   ├── model.sdf
-    │   ├── HumanoidRobot
-    │   │   ├── model.config
-    │   │   ├── model.sdf
-    ├── script                         # Gazebo World plugin C++ script      
-    │   ├── welcome_message.cpp
-    ├── world                          # Gazebo main World containing models 
-    │   ├── UdacityOffice.world
-    ├── CMakeLists.txt                 # Link libraries 
-    └──   
+Here are the files that are available in project folder:
+1. model Folder: Contains a folder for robot model designed in the Model Editor tool of Gazebo,
+and Environment designed in the Building Editor tool of Gazebo
+2. world folder: Gazebo world file that includes the all the models
+3. script folder: Gazebo world plugin C++ script
+4. CMakeLists.txt file to link the C++ code to libraries
